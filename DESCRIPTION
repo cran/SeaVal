@@ -1,6 +1,6 @@
 Package: SeaVal
 Title: Validation of Seasonal Weather Forecasts
-Version: 1.1.0
+Version: 1.1.1
 Authors@R: 
     c(person(given = "Claudio",
            family = "Heinrich-Mertsching",
@@ -27,18 +27,20 @@ URL: http://files.nr.no/samba/CONFER/SeaVal/,
 License: GPL (>= 3)
 Encoding: UTF-8
 Depends: R (>= 2.10), data.table, ggplot2
-Imports: ggplotify, maps, ncdf4, patchwork, RColorBrewer, scales
+Imports: ggplotify, lifecycle, maps, ncdf4, patchwork, RColorBrewer,
+        scales
 LazyData: true
 RoxygenNote: 7.2.3
 Collate: 'auxiliary_functions.R' 'chirps.R' 'data.R' 'diagrams.R'
         'ICPAC_temp.R' 'ncdf_to_dt.R' 'plotting.R' 'quantiles.R'
-        'scores.R' 'spatial_grids.R' 'upscaling.R' 'utils.R'
+        'scores.R' 'SeaVal-package.R' 'spatial_grids.R' 'upscaling.R'
+        'utils.R'
 NeedsCompilation: no
-Packaged: 2023-11-20 21:50:39 UTC; claudio
+Packaged: 2023-11-24 16:24:50 UTC; claudio
 Author: Claudio Heinrich-Mertsching [aut, cre, cph]
     (<https://orcid.org/0000-0003-3581-6416>),
   Celine Cunen [ctb],
   Michael Scheuerer [ctb]
 Maintainer: Claudio Heinrich-Mertsching <claudio@nr.no>
 Repository: CRAN
-Date/Publication: 2023-11-21 11:30:11 UTC
+Date/Publication: 2023-11-25 11:30:09 UTC
